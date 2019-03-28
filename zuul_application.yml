@@ -4,6 +4,7 @@ spring:
 
 ---
 
+
 server:
   port: 9527
 spring:
@@ -23,6 +24,7 @@ zuul:
   routes:
     plat.serviceId: plat-service
     plat.path: /plat/**
+
 
 ---
 
