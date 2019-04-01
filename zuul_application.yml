@@ -24,6 +24,10 @@ zuul:
   routes:
     plat.serviceId: plat-service
     plat.path: /plat/**
+    product.serviceId: product-service
+    product.path: /product/**
+    common.serviceId: common-privoder
+    common.path: /common/**
 
 
 ---
@@ -47,3 +51,7 @@ zuul:
   routes:
     plat.serviceId: plat-service
     plat.path: /plat/**
+    product.serviceId: product-service
+    product.path: /product/**
+    common.serviceId: common-privoder
+    common.path: /common/**
